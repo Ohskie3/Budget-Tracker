@@ -3,7 +3,11 @@ self.addEventListener('install', event => {
     .then(cache => cache.addAll([
       '/',
       '/index.html',
-      '/api/transaction'
+      '/db.js',
+      'index.js',
+      'styles.css',
+      '/icons/icon-192x192.png',
+      '/icons/icon-512x512.png'
     ])))
 })
 
