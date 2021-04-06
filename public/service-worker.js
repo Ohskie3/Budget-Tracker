@@ -3,9 +3,7 @@ self.addEventListener('install', event => {
     .then(cache => cache.addAll([
       '/',
       '/index.html',
-      '/auth.html',
-      '/manifest.json',
-      '/images/delivery.png'
+      '/api/transaction'
     ])))
 })
 
